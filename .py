@@ -22,8 +22,8 @@ def obter_imagem_mapa(api_key, location, zoom, width, height):
     return image
 
 # Exemplo de utilização
-api_key = 'AIzaSyDdTREWbb7NJRvkBjReLpRdgNIyqJeLcbM'
-location = 'Quadra E, Rua A, Valparaíso de Goiás, Goiás, Brazil'
+api_key = ''
+location = ''
 zoom = 20 # Tente um nível de zoom mais baixo para uma área maior
 imagem_mapa = obter_imagem_mapa(api_key, location, zoom, width=2048, height=1366)
 imagem_mapa.show()
